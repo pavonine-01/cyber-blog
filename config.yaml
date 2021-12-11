@@ -2,3 +2,113 @@ baseURL: 'https://natashad.netlify.app'
 languageCode: en-us
 title: Natasha Dedich
 theme: hugo-theme-stack
+DefaultContentLanguage: en
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
+
+    footer:
+        since: 2021
+        customText:
+
+    dateFormat:
+        published: Dec 11, 2021
+        lastUpdated: Dec 11, 2021 11:00 EST
+
+    sidebar:
+        emoji: 🍥
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.jpg
+
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    widgets:
+        enabled:
+            - search
+            - archives
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        toggle: true # Display toggle
+        default: auto # Available values: auto, light, dark
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+              newTab: false
+              icon: home
+    
+    social:
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/natasha-dedich/
+          params:
+            icon: brand-linkedin
+            
+        - identifier: email
+          name: Email
+          url: https://gmail.com
+          params:
+            icon: email
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
