@@ -24,4 +24,4 @@ Command 3 #And another one
 
 ```
 
-![Tomtom](C:\Users\natas\Blog\cyber-blog\resources\_gen\images\Tomtom.jpg)
+![Tomtom](C:\Users\natas\Blog\cyber-blog\assets\img\Tomtom.jpg)
