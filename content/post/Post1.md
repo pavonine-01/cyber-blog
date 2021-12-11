@@ -1,6 +1,6 @@
 ---
 title: "Building a bot to buy myself a PS5"
-date: 2021-12-12T00:32:50+11:00
+date: 2021-12-11T21:25:50+11:00
 draft: false
 image: img/Robot1.jpg
 ---
@@ -9,3 +9,6 @@ With the latest news from Sony - confirming the lack of reliable playstation 5 s
 
 ![A Robot](img/Robot2.jpg)
 
+More text here.
+
+I used this [link](https://github.com/Hari-Nagarajan/fairgame) as a reference

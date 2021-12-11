@@ -6,28 +6,16 @@
     <description>Recent content in Posts on Natasha Dedich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 00:32:50 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a bot to buy myself a PS5</title>
       <link>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</link>
-      <pubDate>Sun, 12 Dec 2021 00:32:50 +1100</pubDate>
+      <pubDate>Sat, 11 Dec 2021 21:25:50 +1100</pubDate>
       
       <guid>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</guid>
       <description>With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.
-A Robot</description>
-    </item>
-    
-    <item>
-      <title>Cryptography - a simpler explanation on keys</title>
-      <link>https://natashad.netlify.app/p/cryptography-a-simpler-explanation-on-keys/</link>
-      <pubDate>Fri, 10 Dec 2021 21:25:50 +1100</pubDate>
-      
-      <guid>https://natashad.netlify.app/p/cryptography-a-simpler-explanation-on-keys/</guid>
-      <description>This is a link
- Bullet points bold Testing them out in italics and now im going to quote this text   and also quote this text
-   Heading 2 - Kerberos Emojis!
-Some basic commands are done with:
-Command 1 #This is a comment Command 2 #Another comment Command 3 #And another one Tomtom</description>
+A Robot
+More text here.</description>
     </item>
     
   </channel>
