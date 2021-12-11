@@ -8,10 +8,10 @@
         <language>en-us</language>
         <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://natashad.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Cryptography - a simpler explanation on keys</title>
-        <link>https://natashad.netlify.app/post/post1-information/</link>
+        <link>https://natashad.netlify.app/p/cryptography-a-simpler-explanation-on-keys/</link>
         <pubDate>Fri, 10 Dec 2021 21:25:50 +1100</pubDate>
         
-        <guid>https://natashad.netlify.app/post/post1-information/</guid>
+        <guid>https://natashad.netlify.app/p/cryptography-a-simpler-explanation-on-keys/</guid>
         <description>&lt;p&gt;This is a &lt;a class=&#34;link&#34; href=&#34;https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -26,10 +26,10 @@
 &lt;h3 id=&#34;heading-2---kerberos&#34;&gt;Heading 2 - Kerberos&lt;/h3&gt;
 &lt;p&gt;Emojis!&lt;/p&gt;
 &lt;p&gt;Some basic commands are done with:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
-Command &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#This is a comment&lt;/span&gt;
-Command &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#Another comment&lt;/span&gt;
-Command &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#And another one&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
+&lt;span class=&#34;n&#34;&gt;Command&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#This is a comment&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;Command&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#Another comment&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;Command&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#And another one&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
 	&gt;
