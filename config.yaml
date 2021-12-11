@@ -86,7 +86,7 @@ menu:
             
         - identifier: email
           name: Email
-          url: natasha.dedich@gmail.com
+          url: mailto:natasha.dedich@gmail.com
           params:
             icon: email
 
