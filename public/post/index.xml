@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Natashas Blog</title>
-    <link>https://natashadedich.netlify.app/post/</link>
-    <description>Recent content in Posts on Natashas Blog</description>
+    <title>Posts on Natasha Dedich</title>
+    <link>https://natashad.netlify.app/post/</link>
+    <description>Recent content in Posts on Natasha Dedich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashadedich.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptography - a simpler explanation on keys</title>
-      <link>https://natashadedich.netlify.app/post/post1-information/</link>
+      <link>https://natashad.netlify.app/post/post1-information/</link>
       <pubDate>Fri, 10 Dec 2021 21:25:50 +1100</pubDate>
       
-      <guid>https://natashadedich.netlify.app/post/post1-information/</guid>
-      <description>Public and private keys</description>
+      <guid>https://natashad.netlify.app/post/post1-information/</guid>
+      <description>This is a link
+ Bullet points bold Testing them out in italics and now im going to quote this text   and also quote this text
+   Heading 2 - Kerberos Emojis!
+Some basic commands are done with:
+Command 1 #This is a comment Command 2 #Another comment Command 3 #And another one Tomtom</description>
     </item>
     
   </channel>

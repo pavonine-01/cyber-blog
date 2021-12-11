@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Natashas Blog</title>
-        <link>https://natashadedich.netlify.app/</link>
-        <description>Recent content on Natashas Blog</description>
+        <title>Natasha Dedich</title>
+        <link>https://natashad.netlify.app/</link>
+        <description>Recent content on Natasha Dedich</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 10 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashadedich.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://natashad.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Cryptography - a simpler explanation on keys</title>
-        <link>https://natashadedich.netlify.app/post/post1-information/</link>
+        <link>https://natashad.netlify.app/post/post1-information/</link>
         <pubDate>Fri, 10 Dec 2021 21:25:50 +1100</pubDate>
         
-        <guid>https://natashadedich.netlify.app/post/post1-information/</guid>
-        <description>&lt;p&gt;Public and private keys&lt;/p&gt;
+        <guid>https://natashad.netlify.app/post/post1-information/</guid>
+        <description>&lt;p&gt;This is a &lt;a class=&#34;link&#34; href=&#34;https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bullet points &lt;strong&gt;bold&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Testing them out in &lt;em&gt;&lt;strong&gt;italics&lt;/strong&gt;&lt;/em&gt; and now im going to &lt;code&gt;quote this text&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;and also quote this text&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;heading-2---kerberos&#34;&gt;Heading 2 - Kerberos&lt;/h3&gt;
+&lt;p&gt;Emojis!&lt;/p&gt;
+&lt;p&gt;Some basic commands are done with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
+Command &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#This is a comment&lt;/span&gt;
+Command &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#Another comment&lt;/span&gt;
+Command &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#And another one&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://natashad.netlify.app/C:%5cUsers%5cnatas%5cBlog%5ccyber-blog%5cresources%5c_gen%5cimages%5cTomtom.jpg&#34; &gt;
+		&lt;img src=&#34;https://natashad.netlify.app/C:%5cUsers%5cnatas%5cBlog%5ccyber-blog%5cresources%5c_gen%5cimages%5cTomtom.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Tomtom&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Tomtom&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
 </description>
         </item>
         

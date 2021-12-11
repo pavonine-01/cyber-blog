@@ -2,17 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://natashadedich.netlify.app/post/post1-information/</loc>
+    <loc>https://natashad.netlify.app/page/about/</loc>
+    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natashad.netlify.app/</loc>
+    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natashad.netlify.app/page/</loc>
+    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natashad.netlify.app/post/post1-information/</loc>
     <lastmod>2021-12-10T21:25:50+11:00</lastmod>
   </url><url>
-    <loc>https://natashadedich.netlify.app/</loc>
+    <loc>https://natashad.netlify.app/post/</loc>
     <lastmod>2021-12-10T21:25:50+11:00</lastmod>
   </url><url>
-    <loc>https://natashadedich.netlify.app/post/</loc>
-    <lastmod>2021-12-10T21:25:50+11:00</lastmod>
+    <loc>https://natashad.netlify.app/categories/</loc>
   </url><url>
-    <loc>https://natashadedich.netlify.app/categories/</loc>
+    <loc>https://natashad.netlify.app/page/search/</loc>
   </url><url>
-    <loc>https://natashadedich.netlify.app/tags/</loc>
+    <loc>https://natashad.netlify.app/tags/</loc>
   </url>
 </urlset>
