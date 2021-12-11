@@ -3,7 +3,6 @@ title: "Cryptography - a simpler explanation on keys"
 date: 2021-12-10T21:25:50+11:00
 draft: false
 image: static\Tomtom.jpg
-tags: knowledge
 ---
 
 This is a [link](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
