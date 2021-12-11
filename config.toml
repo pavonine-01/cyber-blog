@@ -1,4 +1,4 @@
-baseURL = 'https://natashadedich.netlify.app/'
+baseURL = 'https://natashad.netlify.app'
 languageCode = 'en-us'
-title = 'A cyber security blog by Tash'
+title = 'Natasha Dedich'
 theme = 'hugo-theme-stack'
