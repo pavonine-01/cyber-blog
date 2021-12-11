@@ -16,11 +16,11 @@ Emojis!
 
 Some basic commands are done with:
 
-```bash
-#!/bin/bash
-Command 1
-Command 2
-Command 3
+```python
+
+Command 1 #This is a comment
+Command 2 #Another comment
+Command 3 #And another one
 
 ```
 
