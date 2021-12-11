@@ -24,8 +24,8 @@ params:
         lastUpdated: Dec 11, 2021 11:00 EST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 😺
+        subtitle: A personal blog documenting my projects and knowledge of the cyber security field.
         avatar:
             enabled: true
             local: true
@@ -86,7 +86,7 @@ menu:
             
         - identifier: email
           name: Email
-          url: https://gmail.com
+          url: natasha.dedich@gmail.com
           params:
             icon: email
 
