@@ -2,7 +2,8 @@
 title: "Cryptography - a simpler explanation on keys"
 date: 2021-12-10T21:25:50+11:00
 draft: false
-image: static\Tomtom.jpg
+image: img/Crypto.jpg
+tag:
 ---
 
 This is a [link](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
@@ -25,4 +26,4 @@ Command 3 #And another one
 
 ```
 
-![Tomtom](../../public/Tomtom.jpg)
+![Tomtom](img/Tomtom.jpg)
