@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Natasha Dedich</title>
+    <link>https://natashad.netlify.app/tags/projects/</link>
+    <description>Recent content in Projects on Natasha Dedich</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building A Bot To Buy Myself A PS5</title>
+      <link>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</link>
+      <pubDate>Sat, 11 Dec 2021 21:25:50 +1100</pubDate>
+      
+      <guid>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</guid>
+      <description>With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.
+ Not this type of bot   More text here.</description>
+    </item>
+    
+  </channel>
+</rss>
