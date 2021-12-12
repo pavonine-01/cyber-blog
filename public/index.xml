@@ -6,27 +6,36 @@
         <description>Recent content on Natasha Dedich</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 11 Dec 2021 21:25:50 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Building a bot to buy myself a PS5</title>
+        <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>A Simplified Look Into Cryptography</title>
+        <link>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</link>
+        <pubDate>Sun, 12 Dec 2021 11:15:37 +1100</pubDate>
+        
+        <guid>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</guid>
+        <description>&lt;img src="https://natashad.netlify.app/img/Crypto.jpg" alt="Featured image of post A Simplified Look Into Cryptography" /&gt;&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>An Introduction to OAuth</title>
+        <link>https://natashad.netlify.app/p/an-introduction-to-oauth/</link>
+        <pubDate>Sun, 12 Dec 2021 11:14:57 +1100</pubDate>
+        
+        <guid>https://natashad.netlify.app/p/an-introduction-to-oauth/</guid>
+        <description>&lt;img src="https://natashad.netlify.app/img/Cyber2.jpg" alt="Featured image of post An Introduction to OAuth" /&gt;&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Building A Bot To Buy Myself A PS5</title>
         <link>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</link>
         <pubDate>Sat, 11 Dec 2021 21:25:50 +1100</pubDate>
         
         <guid>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</guid>
-        <description>&lt;img src="https://natashad.netlify.app/img/Robot1.jpg" alt="Featured image of post Building a bot to buy myself a PS5" /&gt;&lt;p&gt;With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.&lt;/p&gt;
-&lt;p&gt;&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://natashad.netlify.app/img/Robot2.jpg&#34; &gt;
-		&lt;img src=&#34;https://natashad.netlify.app/img/Robot2.jpg&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;A Robot&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;A Robot&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
+        <description>&lt;img src="https://natashad.netlify.app/img/Robot1.jpg" alt="Featured image of post Building A Bot To Buy Myself A PS5" /&gt;&lt;p&gt;With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://natashad.netlify.app/img/Robot2.jpg&#34; width=&#34;250&#34; height=&#34;250&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Not this type of bot&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;More text here.&lt;/p&gt;
 &lt;p&gt;I used this &lt;a class=&#34;link&#34; href=&#34;https://github.com/Hari-Nagarajan/fairgame&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;link&lt;/a&gt; as a reference&lt;/p&gt;
