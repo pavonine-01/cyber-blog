@@ -26,8 +26,9 @@ Command 3 #And another one
 To resize an image using html code inside of a md file, use this layout:
 {{< figure src="/img/Tomtom.jpg" title="The best boy in the world" height="300" width="300" >}}
 
-Alternatively, add the full image like this:
-![Tomtom](img/Tomtom.jpg)
+{{/*Comment things out like this:*/}}
+{{/*Alternatively, add the full image like this:*/}}
+!(img/Tomtom.jpg)
 
 Add a youtube video with:
 {{< youtube w7Ft2ymGmfc >}}

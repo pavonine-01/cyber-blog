@@ -16,14 +16,5 @@
       <description>Lorem Ipsum</description>
     </item>
     
-    <item>
-      <title>An Introduction to OAuth</title>
-      <link>https://natashad.netlify.app/p/an-introduction-to-oauth/</link>
-      <pubDate>Sun, 12 Dec 2021 11:14:57 +1100</pubDate>
-      
-      <guid>https://natashad.netlify.app/p/an-introduction-to-oauth/</guid>
-      <description>Lorem Ipsum</description>
-    </item>
-    
   </channel>
 </rss>

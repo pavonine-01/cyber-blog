@@ -6,6 +6,7 @@ aliases:
   - about-us
   - contact
 lastmod: '2021-12-11'
+image: img/Tomtom.jpg
 menu:
     main: 
         weight: -90
@@ -13,4 +14,10 @@ menu:
             icon: user
 ---
 
-Hello! My name is Natasha, and this is a personal blog that I run to keep record of any projects or knowledge relating to my studies in the cyber security field that I undertake throughout the course of my university degree, or in my personal time.
+Hello! My name is Natasha, and this is a personal blog that I use to keep record of any projects or knowledge relating to my studies in the IT and cyber security fields that I undertake throughout the course of my university degree, or in my personal time.
+
+I enjoy learning new concepts and practices in the IT and cyber security field, and want to document this new knowledge, and apply my problem-solving skills while undertaking new projects.
+
+I use this blog to explain these IT and cyber security concepts in a way that is understandable to a non-technical audience, and also as a way for me to keep a document of new knowledge and skills that I come across durning my studies.
+
+This blog also acts as a way for me to improve my writing and documenting skills, while also expanding my technical and problem-solving skills through undertaking mini-projects.
