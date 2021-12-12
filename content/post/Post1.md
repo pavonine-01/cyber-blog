@@ -1,5 +1,5 @@
 ---
-title: "Building a bot to buy myself a PS5"
+title: "Building A Bot To Buy Myself A PS5"
 date: 2021-12-11T21:25:50+11:00
 draft: false
 image: img/Robot1.jpg
