@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to OAuth"
 date: 2021-12-12T11:14:57+11:00
-draft: true
+draft: false
 image: img/Cyber2.jpg
 tags: ['Learning', 'Authentication']
 ---
@@ -27,5 +27,9 @@ OAuth 2.0 is a very different version from OAuth 1.0 and 1.1.
 * Something
 
 ## How the Protocol Actually Works
+
+.
+
+## Known security risks with using OAuth
 
 .
