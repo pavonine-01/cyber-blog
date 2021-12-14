@@ -1,6 +1,6 @@
 ---
 title: About
-description: Who am I and what the aim of this blog is!
+description: Who I am and what the aim of this blog is.
 date: '2021-12-11'
 aliases:
   - about-us
@@ -16,7 +16,7 @@ menu:
 
 Hello! My name is Natasha, and this is a personal blog that I use to keep record of any projects or knowledge relating to my studies in the IT and cyber security fields that I undertake throughout the course of my university degree, or in my personal time.
 
-I enjoy learning new concepts and practices in the IT and cyber security field, and want to document this new knowledge, and apply my problem-solving skills while undertaking new projects.
+I enjoy learning about interesting concepts and practices in the IT and cyber security field, and want to document this new knowledge, and apply my problem-solving skills while undertaking new projects.
 
 I use this blog to explain these IT and cyber security concepts in a way that is understandable to a non-technical audience, and also as a way for me to keep a document of new knowledge and skills that I come across durning my studies.
 

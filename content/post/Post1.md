@@ -1,9 +1,9 @@
 ---
 title: "Building A Bot To Buy Myself A PS5"
 date: 2021-12-11T21:25:50+11:00
-draft: false
-image: img/Robot1.jpg
-tags: ['Projects', 'Bots']
+draft: true
+image: img/Post1.jpg
+tags: ['Projects', 'Bots', 'Python']
 ---
 
 The newest console from Sony, the Playstation 5, has been difficult to purchase due to a global manufacturing components shortage, where there is a lack of reliable supply of semiconductor chips necessary to manufacture these consoles.
@@ -16,7 +16,7 @@ I am going to build a bot to automatically purchase a PS5 for myself.
 
 ## What is a bot?
 
-{{< figure src="/img/Robot2.jpg" height="250" width="250" >}}
+{{< figure src="/img/Robot1.jpg" height="250" width="250" >}}
 
 A 'bot' is a program that is written to perform a specific task. Bots are used all over the internet to do a variety of good and important tasks, such as 'web crawlers' which scan content on webpages. Bots can also be used to perform a number of different malicious actions, such as spread spam content or carry out Denial-of-Service attacks. Bots can pose a cyber security risk both to organisations and individuals.
 
@@ -27,5 +27,8 @@ The only way to purchase a Playstation 5 console for myself, while competing wit
 ## How to build a bot
 
 I used this [link](https://github.com/Hari-Nagarajan/fairgame) as a reference.
+
+Build a bot that alerts you to restocks:
+{{< youtube 4rHqekQeIn0 >}}
 
 Tags:
