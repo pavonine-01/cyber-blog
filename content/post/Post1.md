@@ -40,4 +40,11 @@ pip install beautifulsoup4
 pip install lxml
 ```
 
+[Link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[Link](https://realpython.com/beautiful-soup-web-scraper-python/)
+[Link](https://realpython.com/python-send-email/)
+[Link](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites)
+[Link](https://www.quora.com/How-do-I-make-a-Python-script-that-notifies-me-of-restock-on-best-Buy-I-m-trying-to-get-an-ROG-Strix-3080)
+[Link](https://www.pythoncheatsheet.org/)
+
 Tags:
