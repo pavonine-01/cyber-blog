@@ -1,5 +1,5 @@
 ---
-title: "Building A Bot To Buy Myself A PS5"
+title: "Building a Python Script to Help Me Buy a Playstation 5"
 date: 2021-12-11T21:25:50+11:00
 draft: true
 image: img/Post1.jpg
@@ -12,7 +12,7 @@ The lack of reliable playstation 5 stock has lead to a "scalping problem", where
 
 With the latest news from Sony confirming the lack of readily available playstation 5 stock into the next year, and after weeks of searching and hoping to get lucky and purchase a console for myself, I decided to take matters into my own hands.
 
-I am going to build a bot to automatically purchase a PS5 for myself.
+I am going to build a python script that will instantly alert me when a PS5 is restocked online.
 
 ## What is a bot?
 
@@ -22,13 +22,22 @@ A 'bot' is a program that is written to perform a specific task. Bots are used a
 
 In the case of the Playstation 5 console, people colloquially called 'scalpers' have been creating bots to instantly bulk purchase these consoles the moment they become available at retailers, at speeds which the average human buyer cannot hope to match.
 
-The only way to purchase a Playstation 5 console for myself, while competing with bots, is to build a bot of my own.
+## Outline of the Project
 
-## How to build a bot
+The moment a small batch of PS5 consoles are restocked online, particularly in stores such as Big W, Target, Harvey Norman, The Gamesmen or Amazon, they sell out within a few minutes, if not seconds. In order to try to buy one of these consoles, I need to be alerted immediately when they are available for purchase. 
 
-I used this [link](https://github.com/Hari-Nagarajan/fairgame) as a reference.
+In order to build this python script, I am going to use a web-scraping library called **Beautiful Soup**. The link to the documentation for this library can be found [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-Build a bot that alerts you to restocks:
-{{< youtube 4rHqekQeIn0 >}}
+The idea of the project is to make an infinite loop that downloads the HTML webpage, and then use **Beautiful Soup** to parse it, looking for changes in the script. Simply put, the script should notice when "Out of Stock" changes to "Buy Now" or something similar.
+
+To create the alert, that will notify me to this change, I will add a trigger that will send me an email. To do this, I will set up a SMTP (Simple Mail Transfer Protocol) server. This can be done with Python, and I will use the **Nylas Python SDK**. The documentation for this can be found [here](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites).
+
+## The Project
+
+To install the **Beautiful Soup** library on a Windows OS I used the following commands in my command line:
+```WindowsCmd
+pip install beautifulsoup4
+pip install lxml
+```
 
 Tags:

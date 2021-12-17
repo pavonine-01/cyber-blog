@@ -16,7 +16,7 @@ OAuth itself is an "open standard" authorisation protocol, meaning that is it pu
 
 OAuth 1.0 was initially developed in 2007, but didn't become widely used until it was released as an open standard in 2010.
 
-OAuth 2.0 is a very different version from OAuth 1.0 and 1.1. OAuth 2.0 issues ***access tokens*** to the third-party client with the approval of the user. That third-party will then use that access token to access only the approved information it needs to provide its service.
+OAuth 2.0 is a very different version from OAuth 1.0 and 1.1. OAuth 2.0 issues ***access tokens*** to the third-party client with the approval of the user. The third-party will then use that access token to obtain only the approved information it needs to provide its service.
 
 OAuth 2.0 in particular has a specific authorisation process depending on if the user is trying to access a web page, a desktop application, smart device or a mobile phone.
 
