@@ -37,11 +37,13 @@ To create the alert that will notify me to this change, I will add a trigger tha
 ## The Project
 
 To install the **Beautiful Soup** library on a Windows OS I used the following commands in my command line:
-
+ 
 ```Python
 pip install beautifulsoup4 #Install BeautifulSoup
 pip install lxml #Install a Parser
 ```
+
+A parser is .
 
 [Link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 [Link](https://realpython.com/beautiful-soup-web-scraper-python/)
