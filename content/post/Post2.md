@@ -10,9 +10,9 @@ Open Authorisation, or OAuth for short, is a way to grant third-party applicatio
 
 It allows people to use the login credentials they have from one service to login to another service. Most commonly, OAuth is used with Google, Facebook or GitHub accounts.
 
-## What Is OAuth 2.0 and How Does It Work?
+## What Is OAuth?
 
-OAuth itself is an "open standard" authorisation protocol, meaning that is it publicly available for any person or company to implement or update. It is not owned by any particular company, which helps prevent users from becoming "locked-in" to any particular companies ecosystem of technology.
+OAuth itself is an "open standard" authorisation protocol, meaning that is it publicly available for any person or company to implement or update. It is not owned by any particular company, which helps prevent users from becoming "locked-in" to any companies 'ecosystem' of technology.
 
 OAuth 1.0 was initially developed in 2007, but didn't become widely used until it was released as an open standard in 2010.
 
@@ -20,7 +20,7 @@ OAuth 2.0 is a very different version from OAuth 1.0 and 1.1. OAuth 2.0 issues *
 
 OAuth 2.0 in particular has a specific authorisation process depending on if the user is trying to access a web page, a desktop application, smart device or a mobile phone.
 
-## Benefits
+## Benefits of using OAuth
 
 One of the major benefits of using OAuth is that the websites or application that is being accessed is given limited access to the user's data without accessing the user's credentials. The OAuth protocol allows users to specify exactly what information, and what level of permissions, they would like to grant.
 
@@ -28,7 +28,7 @@ An often overlooked advantage of using OAuth is the simplicity it brings to usin
 
 **NEED TO ADD ANOTHER BENEFIT**.
 
-## Disadvantages
+## Disadvantages of using OAuth
 
 There have been some security vulnerabilities with using OAuth 2.0.
 
@@ -38,14 +38,12 @@ While this attack wasn't a fault with the protocol itself, the easy setup and ac
 
 **NEED TO ADD AN ACTUAL SECURITY RISK**.
 
-## How the Protocol Actually Works
+## How does OAuth acutally work?
 
 [Link](https://en.wikipedia.org/wiki/OAuth)
 [Link](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
 [Link](https://aaronparecki.com/oauth-2-simplified/)
 [Link](https://www.scienceabc.com/innovation/oauth-how-does-login-with-facebook-google-work.html)
 [Link](https://stackoverflow.com/questions/7561631/oauth-2-0-benefits-and-use-cases-why)
-
-## Known security risks with using OAuth
 
 .
