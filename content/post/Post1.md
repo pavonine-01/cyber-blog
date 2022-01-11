@@ -51,5 +51,7 @@ A parser is .
 [Link](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites)
 [Link](https://www.quora.com/How-do-I-make-a-Python-script-that-notifies-me-of-restock-on-best-Buy-I-m-trying-to-get-an-ROG-Strix-3080)
 [Link](https://www.pythoncheatsheet.org/)
+[Link](https://www.journaldev.com/44473/scrape-amazon-product-information-beautiful-soup)
+[Link](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites)
 
 Tags:
