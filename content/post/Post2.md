@@ -26,6 +26,8 @@ One of the major benefits of using OAuth is that the websites or application tha
 
 An often overlooked advantage of using OAuth is the simplicity it brings to using multiple web-based and software applications. OAuth negates the need for users to create multiple usernames and passwords for many different services, or more likely use the same username and password across these multiple services as many people do, which can be a security risk.
 
+From the perspective of a business, implementing OAuth as an option for users to login with alleviates the need for businesses to invest in securely storing and guarding over login credentials for those users. In the even of a cyber attack on the business, attackers will not be able to steal user's passwords as the OAuth token does not provide this when used to login.
+
 **NEED TO ADD ANOTHER BENEFIT**.
 
 ## Disadvantages of using OAuth
@@ -39,6 +41,16 @@ While this attack wasn't a fault with the protocol itself, the easy setup and ac
 **NEED TO ADD AN ACTUAL SECURITY RISK**.
 
 ## How does OAuth acutally work?
+
+*All of this needs to be re-written, it is from this [link](https://auth0.com/intro-to-iam/what-is-oauth-2/)*
+
+1. The Client requests authorization (authorization request) from the Authorization server, supplying the client id and secret to as identification; it also provides the scopes and an endpoint URI (redirect URI) to send the Access Token or the Authorization Code to.
+2. The Authorization server authenticates the Client and verifies that the requested scopes are permitted. 
+3. The Resource owner interacts with the Authorization server to grant access.
+4. The Authorization server redirects back to the Client with either an Authorization Code or Access Token, depending on the grant type, as it will be explained in the next section. A Refresh Token may also be returned.
+5. With the Access Token, the Client requests access to the resource from the Resource server.
+
+## Links
 
 [Link](https://en.wikipedia.org/wiki/OAuth)
 [Link](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
