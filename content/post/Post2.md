@@ -26,9 +26,8 @@ One of the major benefits of using OAuth is that the websites or application tha
 
 An often overlooked advantage of using OAuth is the simplicity it brings to using multiple web-based and software applications. OAuth negates the need for users to create multiple usernames and passwords for many different services, or more likely use the same username and password across these multiple services as many people do, which can be a security risk.
 
-From the perspective of a business, implementing OAuth as an option for users to login with alleviates the need for businesses to invest in securely storing and guarding over login credentials for those users. In the even of a cyber attack on the business, attackers will not be able to steal user's passwords as the OAuth token does not provide this when used to login.
-
-**NEED TO ADD ANOTHER BENEFIT**.
+**Add more to this paragraph**
+From the perspective of a business, implementing OAuth as an option for users to login with alleviates the need for businesses to invest in securely storing and guarding over login credentials for those users. In the even of a cyber attack on the business, attackers will not be able to steal user's passwords as the OAuth token does not provide this when used to login. [Link](https://www.clowder.com/post/why-your-organization-should-be-using-oauth-2.0)
 
 ## Disadvantages of using OAuth
 
