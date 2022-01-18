@@ -22,17 +22,38 @@ A logging framework is usually a third-party application used to help ease and s
 
 The log4j framework can look up information, such as Event lookups, Date lookups or JNDI (Java Naming and Directory Interface) lookups, to name a few examples. It uses the JDNI API to correlate these lookups against different record providers, such as DNS (Domain Name Service), RMI (Remote Method Invocation) or the others seen in the image below. An overview of JDNI can be found at [this link](https://docs.oracle.com/javase/jndi/tutorial/getStarted/overview/index.html).
 
-{{< figure src="https://docs.oracle.com/javase/jndi/tutorial/figures/jndi/getStarted/jndiarch.jpg" title="JDNI API" height="500" width="500" >}}
+{{< figure src="https://docs.oracle.com/javase/jndi/tutorial/figures/jndi/getStarted/jndiarch.jpg" title="JDNI API. Figure Source: Oracle Documentation" height="500" width="500" >}}
 
 The log4shell vulnerability takes advantage of log4j not performing input validation and not sanitising any URL's passed through input messages. Log4j does not verify the JNDI and LDAP (Lightweight Directory Access Protocol) requests. Therefore, attackers can execute malicious Java code on any server, as log4j blindly trusts all input.
 
 ## How log4j works
+
+Log4j has a feature named **message lookup substitution**. This feature allows log4j to automatically detect strings, text written by users, that point to JDNI resources. Before the latest update, Apache Log4j version 2.15.0 or later, this feature was enabled automatically and was partially responsible for the remote code execution vulnerability that was log4shell.
+
+The **message lookup substitution** feature in log4j had no in-built rules governing acceptable user input, and as a result, would not sanitise and remove any unnecessary input, including URL's. This automatically enabled feature combined with the lack of filtering and sanitisisation of user's input allowed attackers to send malicious requests to applications using log4j.
+
+{{< figure src="https://news.sophos.com/wp-content/uploads/2021/12/log4j_how-1.png" title="Log4j Explanied. Figure Source: SophosLabs" height="700" width="700">}}
+
+With HTTP communications specifically, the malicious string could be sent through any part of the HTTP request that would be logged by the receiving application. As seen in the diagram above, the **User-Agent** field in the normal log4j scenario would contain details of the user's browser. An attacker is able to modify this information and instead send a string that would invoke the JNDI interface.
+
+This malicious string can be crafted in many ways, but will commonly be in the form of:
+```
+${jndi:[service]://[lookup address]}
+```
+In this example, JNDI can call upon services such as LDAP, LDAPS, DNS or Java's RMI to assist in the lookup.
+The lookup address is the URL that will be queried and fetched as Java code.
+
 
 
 
 ## What known cyberattacks resulted from log4j?
 
 Within 72 hours of the log4j vulnerability being reported, more than 840,000 attacks were reported.
+
+
+Microsoft has already observed attacks that involve installing cryptocurrency-mining malware on servers. Separately, some hackers tried to install Cobalt Strike on vulnerable systems, which could lead to hackers stealing usernames and passwords. The company also detailed the Microsoft 365 Defender features that can protect against the Log4j hack. But that might not be good enough for most people — after all, this only covers Windows and Linux. And its IT teams that should employ fixes in servers and computer systems.
+
+
 
 ## Links
 
