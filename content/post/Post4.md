@@ -1,7 +1,7 @@
 ---
 title: "Configuring a Vulnerability Scanner"
 date: 2021-12-14T14:37:34+11:00
-draft: false
+draft: true
 image: img/Cyber1.jpg
 tags: ['Projects', 'Networking', 'Red Team']
 ---
