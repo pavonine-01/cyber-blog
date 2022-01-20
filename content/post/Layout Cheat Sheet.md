@@ -35,3 +35,11 @@ Add a youtube video with:
 
 and add this line to make it automatically play or have the title:
 {{< youtube id="w7Ft2ymGmfc" autoplay="true" title="A New Hugo Site in Under Two Minutes" >}}
+
+
+Post 6 Useful Links:
+[Link](https://medium.com/avmconsulting-blog/log4j-vulnerability-for-dummies-13af42ce4266)
+[Link](https://news.sophos.com/en-us/2021/12/12/log4shell-hell-anatomy-of-an-exploit-outbreak/)
+[Link](https://www.akamai.com/blog/security/threat-intelligence-on-log4j-cve-key-findings-and-their-implications)
+[Link](https://www.lawfareblog.com/whats-deal-log4shell-security-nightmare)
+[Link](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/log4j-vulnerabilities-attacks)

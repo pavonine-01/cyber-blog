@@ -8,7 +8,7 @@ tags: ['Learning', 'Vulnerability']
 
 ## What is the log4j incident?
 
-Apache log4j is an open-source logging framework used with the java programming language. It is a popular framework widely used across various industries, from video games such as Minecraft to hospital equipment and other programs.
+Apache log4j is an open-source logging framework used with the programming languages. It is a popular framework widely used across various industries, from video games such as Minecraft to hospital equipment and other programs.
 
 Researchers from Alibaba Cloud Security Team discovered a vulnerability in the framework and reported it to Apache on the 24th of November 2021. The vulnerability was then released through a Twitter post to the world on the 9th of December 2021.
 
