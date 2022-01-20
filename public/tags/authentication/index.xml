@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authentication on Natasha Dedich</title>
-    <link>https://natashad.netlify.app/tags/authentication/</link>
+    <link>https://natashad.me/tags/authentication/</link>
     <description>Recent content in Authentication on Natasha Dedich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 11:14:57 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 11:14:57 +1100</lastBuildDate><atom:link href="https://natashad.me/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Introduction to OAuth</title>
-      <link>https://natashad.netlify.app/p/an-introduction-to-oauth/</link>
+      <link>https://natashad.me/p/an-introduction-to-oauth/</link>
       <pubDate>Sun, 12 Dec 2021 11:14:57 +1100</pubDate>
       
-      <guid>https://natashad.netlify.app/p/an-introduction-to-oauth/</guid>
+      <guid>https://natashad.me/p/an-introduction-to-oauth/</guid>
       <description>Lorem Ipsum</description>
     </item>
     

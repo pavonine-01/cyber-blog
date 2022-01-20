@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Natasha Dedich</title>
-        <link>https://natashad.netlify.app/</link>
+        <link>https://natashad.me/</link>
         <description>Recent content on Natasha Dedich</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.me/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>A Simplified Look Into Cryptography</title>
-        <link>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</link>
+        <link>https://natashad.me/p/a-simplified-look-into-cryptography/</link>
         <pubDate>Sun, 12 Dec 2021 11:15:37 +1100</pubDate>
         
-        <guid>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</guid>
-        <description>&lt;img src="https://natashad.netlify.app/img/Crypto.jpg" alt="Featured image of post A Simplified Look Into Cryptography" /&gt;&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+        <guid>https://natashad.me/p/a-simplified-look-into-cryptography/</guid>
+        <description>&lt;img src="https://natashad.me/img/Crypto.jpg" alt="Featured image of post A Simplified Look Into Cryptography" /&gt;&lt;p&gt;Lorem Ipsum&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Building A Bot To Buy Myself A PS5</title>
-        <link>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</link>
+        <link>https://natashad.me/p/building-a-bot-to-buy-myself-a-ps5/</link>
         <pubDate>Sat, 11 Dec 2021 21:25:50 +1100</pubDate>
         
-        <guid>https://natashad.netlify.app/p/building-a-bot-to-buy-myself-a-ps5/</guid>
-        <description>&lt;img src="https://natashad.netlify.app/img/Robot1.jpg" alt="Featured image of post Building A Bot To Buy Myself A PS5" /&gt;&lt;p&gt;With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://natashad.netlify.app/img/Robot2.jpg&#34; width=&#34;250&#34; height=&#34;250&#34;/&gt;&lt;figcaption&gt;
+        <guid>https://natashad.me/p/building-a-bot-to-buy-myself-a-ps5/</guid>
+        <description>&lt;img src="https://natashad.me/img/Robot1.jpg" alt="Featured image of post Building A Bot To Buy Myself A PS5" /&gt;&lt;p&gt;With the latest news from Sony - confirming the lack of reliable playstation 5 stock into the next year - and after weeks of searching and hoping to get lucky and purchase myself a console, I decided to take matters into my own hands. As a result, I am going to attempt to build a bot to automatically purchase a PS5 for myself.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://natashad.me/img/Robot2.jpg&#34; width=&#34;250&#34; height=&#34;250&#34;/&gt;&lt;figcaption&gt;
             &lt;h4&gt;Not this type of bot&lt;/h4&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;

@@ -67,3 +67,5 @@ Microsoft has reported cyber attacks involving attackers installing crypto minin
 Khonsari and Conti randomware threats have also been reported, alongside many other malwares. More information about publicly reported payloads can be found at [Symantec](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/log4j-vulnerabilities-attacks).
 
 The best fix to this vulnerability is to update all servers using Apache Log4j to version 2.15.0 or later, and to continue checking to more future updates as good practice.
+
+Tags:

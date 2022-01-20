@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cryptography on Natasha Dedich</title>
-    <link>https://natashad.netlify.app/tags/cryptography/</link>
+    <link>https://natashad.me/tags/cryptography/</link>
     <description>Recent content in Cryptography on Natasha Dedich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.me/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Simplified Look Into Cryptography</title>
-      <link>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</link>
+      <link>https://natashad.me/p/a-simplified-look-into-cryptography/</link>
       <pubDate>Sun, 12 Dec 2021 11:15:37 +1100</pubDate>
       
-      <guid>https://natashad.netlify.app/p/a-simplified-look-into-cryptography/</guid>
+      <guid>https://natashad.me/p/a-simplified-look-into-cryptography/</guid>
       <description>Lorem Ipsum</description>
     </item>
     

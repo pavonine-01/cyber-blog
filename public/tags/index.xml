@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Natasha Dedich</title>
-    <link>https://natashad.netlify.app/tags/</link>
+    <link>https://natashad.me/tags/</link>
     <description>Recent content in Tags on Natasha Dedich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 11:15:37 +1100</lastBuildDate><atom:link href="https://natashad.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptography</title>
-      <link>https://natashad.netlify.app/tags/cryptography/</link>
+      <link>https://natashad.me/tags/cryptography/</link>
       <pubDate>Sun, 12 Dec 2021 11:15:37 +1100</pubDate>
       
-      <guid>https://natashad.netlify.app/tags/cryptography/</guid>
+      <guid>https://natashad.me/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>https://natashad.netlify.app/tags/learning/</link>
+      <link>https://natashad.me/tags/learning/</link>
       <pubDate>Sun, 12 Dec 2021 11:15:37 +1100</pubDate>
       
-      <guid>https://natashad.netlify.app/tags/learning/</guid>
+      <guid>https://natashad.me/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://natashad.netlify.app/tags/projects/</link>
+      <link>https://natashad.me/tags/projects/</link>
       <pubDate>Sat, 11 Dec 2021 21:25:50 +1100</pubDate>
       
-      <guid>https://natashad.netlify.app/tags/projects/</guid>
+      <guid>https://natashad.me/tags/projects/</guid>
       <description></description>
     </item>
     
