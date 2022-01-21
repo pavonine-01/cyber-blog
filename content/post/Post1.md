@@ -1,57 +1,65 @@
 ---
-title: "Building a Python Script to Help Me Buy a Playstation 5"
-date: 2021-12-11T21:25:50+11:00
-draft: true
-image: img/Post1.jpg
-tags: ['Projects', 'Bots', 'Python']
+title: "An Introduction to OAuth"
+date: 2021-12-12T11:14:57+11:00
+draft: false
+image: img/Post2.jpg
+tags: ['Learning', 'Authentication']
 ---
 
-The newest Playstation 5 console from Sony has been difficult to purchase due to a global manufacturing components shortage, where there is a lack of reliable supply of semiconductor chips necessary to manufacture these consoles.
+Open Authorisation, or OAuth for short, is a way to grant third-party applications access to specific information or permissions from an account with another provider.
 
-The lack of reliable playstation 5 stock has lead to a "scalping problem", where re-sellers use "bots" to instantly purchase these consoles and then sell them at absurd markup prices. This causes retailers such as EB Games, JB Hi-Fi or Amazon to immediately go out of stock, making it impossible for the average customer to purchase one at retail price, with a warranty and all of their consumer rights.
+It allows people to use the login credentials they have from one service to login to another service. For example, OAuth is commonly used when logging in with Google or Facebook accounts onto other websites that may be used less frequently, such as Canva or Grammarly.
 
-With the latest news from Sony confirming the lack of readily available playstation 5 stock into the next year, and after weeks of searching and hoping to get lucky and purchase a console for myself, I decided to take matters into my own hands.
+## What Is OAuth?
 
-I am going to build a python script that will instantly alert me when a PS5 is restocked online.
+OAuth itself is an "open standard" authorisation protocol, meaning that is it publicly available for any individual or company to implement or update. The protocol is not owned by any company, which helps prevent users from becoming trapped within a business's 'ecosystem' of technology.
 
-## What is a bot?
+OAuth 2.0 is a very different version from OAuth 1.0 and 1.1. OAuth 2.0 issues ***access tokens*** to the third-party website with the approval of the user. The third-party will then use that access token to obtain the approved information it needs to provide its service to the user.
 
-{{< figure src="/img/Robot1.jpg" height="250" width="250" >}}
+OAuth 2.0 in particular has a specific authorisation process depending on the device or application the user is attempting to access, such as a web page, a desktop application, smart device or a mobile phone.
 
-A 'bot' is a program that is written to perform a specific task. Bots are used all over the internet to do a variety of important tasks. An example of a good bot is a 'web crawler', which scans content on webpages, usually for search engines such as Google or Bing to learn more about the content on web pages so that human users can search more easily. Bots can also be used to perform a number of different malicious actions, such as spread spam content or carry out Denial-of-Service attacks. Bots can pose a cyber security risk both to organisations and individuals.
+## Benefits of using OAuth
 
-In the case of the Playstation 5 console, people colloquially called 'scalpers' have been creating bots to instantly bulk purchase these consoles the moment they become available at retailers, at speeds which the average human buyer cannot hope to match.
+One of the major benefits of using OAuth is that the websites or application that is being accessed is given limited access to the user's data without accessing the user's credentials. The OAuth protocol allows users to specify exactly what information, and what level of permissions, they would like to grant the third-party. At no point is the third-party given access to the user's password for the service they are logging in with, wether that be gmail or facebook.
 
-## Outline of the Project
+An often overlooked advantage of using OAuth is the simplicity it brings to using multiple web-based and software applications. A good cyber security practice for any person is to keep unique passwords for every website or service they use, a practice which many people do not follow. OAuth simplifies the need for users to create multiple usernames and passwords for many different services, or more likely use the same username and password across these multiple services, which can be a security risk.
 
-The moment a small batch of PS5 consoles are restocked online, particularly in Australian stores such as Big W, Target, Harvey Norman, The Gamesmen or Amazon, they sell out within a few minutes, if not seconds. In order to try to buy one of these consoles, I need to be alerted immediately when they are available for purchase to improve my chances.
+**Add more to this paragraph**
+From the perspective of a business, implementing OAuth as the only method for users to login with alleviates the need for businesses to invest in securely storing and guarding over login credentials for those users. In the even of a cyber attack on the business, attackers will not be able to steal user's passwords as the OAuth token does not provide this when used to login. [Link](https://www.clowder.com/post/why-your-organization-should-be-using-oauth-2.0)
 
-In order to build this python script, I am going to use a web-scraping library called **Beautiful Soup**. The link to the documentation for this library can be found [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
+## Disadvantages of using OAuth
 
-The idea of the project is to make an infinite loop that downloads the HTML webpage for the Playstation 5 listing on one of these online stores, and then use **Beautiful Soup** to parse it, looking for changes in the script. Simply put, the script should notice when the "Out of Stock" text changes to "Add to Cart" or "Buy Now", and then should alert me to the change.
+In May of 2017, approximately 1 million Gmail users were targeted with a phishing attack, where the attackers pretented to be either a collegue or employer of the victim and prompted them to click on a link in the email. This link would then redirect the victim to allow a malicious program disguised as a fake site called "Google Apps" to access their "email, contacts and online documents" through the OAuth protocol.
 
-The web page I will be parsing is the link to the Amazon listing of the [PS5 Disc Console](https://www.amazon.com.au/Sony-3005718-PlayStation-5-Console/dp/B08FC5L3RG).
+While this attack wasn't a fault with the protocol itself, the easy setup and access that using OAuth grants allowed attackers to manipulate many users into granting the attackers access to their personal information.
 
-To create the alert that will notify me to this change, I will add a trigger that will send me an email. To do this, I will set up a SMTP (Simple Mail Transfer Protocol) server. This can also be done with Python, and I will use the **Nylas Python SDK**. The documentation for this can be found [here](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites).
+Another key issue with OAuth is a result of the flexible design and implemetation of the protocol itself, due to its open-source nature. When using the protocol, user's must trust that it has been properly implemented by their service provider, as there is plenty of opportunity for security vulnerabilites to arise. OAuth 2.0 has few build-in security features, and combined with the few mandatory components needed for basic functionality of the protocol, the security of the protocol relies on robust installation and care from developers.
 
-## The Project
+## How does OAuth acutally work?
 
-To install the **Beautiful Soup** library on a Windows OS I used the following commands in my command line:
- 
-```Python
-pip install beautifulsoup4 #Install BeautifulSoup
-pip install lxml #Install a Parser
-```
+OAuth works by defining three parties that will communicate with eachother. These are the **Resource Owner**, meaning the user who owns the data, the **Client Application**, meaning the third-party who wants to access the data, and finally the **OAuth Service Provider**, meaning the website or service that controls the data, such as Gmail.
 
-A parser is .
+As mentioned previously, there are many ways that OAuth can be implemented, but the most common way is through the use of *authorisation codes* and *grant types*.
 
-[Link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-[Link](https://realpython.com/beautiful-soup-web-scraper-python/)
-[Link](https://realpython.com/python-send-email/)
-[Link](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites)
-[Link](https://www.quora.com/How-do-I-make-a-Python-script-that-notifies-me-of-restock-on-best-Buy-I-m-trying-to-get-an-ROG-Strix-3080)
-[Link](https://www.pythoncheatsheet.org/)
-[Link](https://www.journaldev.com/44473/scrape-amazon-product-information-beautiful-soup)
-[Link](https://developer.nylas.com/docs/the-basics/tutorials/python/send-an-email-with-python/#prerequisites)
+1. The user wants to access a third-party website and, if the third-party supports OAuth, will have give the user the option to log in with a choice of service providers.
+
+2. 
+
+
+*All of this needs to be re-written, it is from this [link](https://auth0.com/intro-to-iam/what-is-oauth-2/)*
+
+1. The Client requests authorization (authorization request) from the Authorization server, supplying the client id and secret to as identification; it also provides the scopes and an endpoint URI (redirect URI) to send the Access Token or the Authorization Code to.
+2. The Authorization server authenticates the Client and verifies that the requested scopes are permitted. 
+3. The Resource owner interacts with the Authorization server to grant access.
+4. The Authorization server redirects back to the Client with either an Authorization Code or Access Token, depending on the grant type, as it will be explained in the next section. A Refresh Token may also be returned.
+5. With the Access Token, the Client requests access to the resource from the Resource server.
+
+## Links
+
+[Link](https://en.wikipedia.org/wiki/OAuth)
+[Link](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
+[Link](https://aaronparecki.com/oauth-2-simplified/)
+[Link](https://www.scienceabc.com/innovation/oauth-how-does-login-with-facebook-google-work.html)
+[Link](https://stackoverflow.com/questions/7561631/oauth-2-0-benefits-and-use-cases-why)
 
 Tags:

