@@ -14,10 +14,8 @@ menu:
             icon: user
 ---
 
-Hello! My name is Natasha, and this is a personal blog where I keep records of any projects or knowledge relating to my studies in the IT and cyber security fields that I undertake throughout the course of my university degree, or in my personal time.
+Hello! My name is Natasha, and this is a personal blog where I keep records of any projects or knowledge relating to my studies in the IT and cyber security fields that I undertake throughout my university degree or in my personal time.
 
-I enjoy learning about interesting concepts and practices in the IT and cyber security field. I want to learn how to convey challenging concepts in an easy-to-understand way while learning about  document this new knowledge, and apply my problem-solving skills while undertaking new projects.
+I enjoy learning about interesting concepts and practices in the IT and cyber security field. I use this blog to convey challenging concepts in an easy-to-understand way while also documenting the new knowledge and skills that I come across during my studies.
 
-I use this blog to explain these IT and cyber security concepts in a way that is understandable to a non-technical audience, and also as a way for me to keep a document of new knowledge and skills that I come across durning my studies.
-
-This blog also acts as a way for me to improve my writing and documenting skills, while also expanding my technical and problem-solving skills through undertaking mini-projects.
+This blog also acts as a way for me to improve my writing and documenting skills while also expanding my technical and problem-solving skills through undertaking small cyber-related projects.

@@ -37,4 +37,7 @@ The scanner should be able to gather basic system information, such as the opera
 [VM Guide Link](https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/)
 [Youtube Video](https://www.youtube.com/watch?v=wjEavtWTeu8)
 
+[Other Links](https://www.youtube.com/watch?v=HukLd-6C4Ew)
+[Other Links](https://www.youtube.com/watch?v=x87gbgQD4eg)
+
 Tags:
