@@ -1,6 +1,6 @@
 ---
 title: "Understanding the log4j global security incident"
-date: 2021-12-30T21:24:23+11:00
+date: 2021-12-28T21:24:23+11:00
 draft: false
 image: img/Post6.jpg
 tags: ['Learning', 'Vulnerability']

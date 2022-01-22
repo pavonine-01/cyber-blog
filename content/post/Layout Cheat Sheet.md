@@ -36,8 +36,14 @@ Add a youtube video with:
 and add this line to make it automatically play or have the title:
 {{< youtube id="w7Ft2ymGmfc" autoplay="true" title="A New Hugo Site in Under Two Minutes" >}}
 
+OAUTH - Post 1 Useful Links:
+[Link](https://en.wikipedia.org/wiki/OAuth)
+[Link](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
+[Link](https://aaronparecki.com/oauth-2-simplified/)
+[Link](https://www.scienceabc.com/innovation/oauth-how-does-login-with-facebook-google-work.html)
+[Link](https://stackoverflow.com/questions/7561631/oauth-2-0-benefits-and-use-cases-why)
 
-Post 6 Useful Links:
+Log4j - Post 2 Useful Links:
 [Link](https://medium.com/avmconsulting-blog/log4j-vulnerability-for-dummies-13af42ce4266)
 [Link](https://news.sophos.com/en-us/2021/12/12/log4shell-hell-anatomy-of-an-exploit-outbreak/)
 [Link](https://www.akamai.com/blog/security/threat-intelligence-on-log4j-cve-key-findings-and-their-implications)
