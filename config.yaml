@@ -3,7 +3,7 @@ languageCode: en-us
 title: Natasha Dedich
 theme: hugo-theme-stack
 DefaultContentLanguage: en
-googleAnalytics: G-M8QYZE4E31
+googleAnalytics: G-QY3XWBKLEK
 
 permalinks:
     post: /p/:slug/
