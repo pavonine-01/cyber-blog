@@ -71,4 +71,26 @@ The meaning of Step 6 in the figure above being named "API Call" may be a bit un
 
 An API is simply a tool that lets two programs interact with each other. In Step 6, Canva uses the access token to interact with the resource server named /userinfo, in order to retrieve Jane's user data. Using an API allows Gmail to provide a service that is dedicated to fulfilling a certain type of job, such as the /authorisation API seen in Steps 1, 2 and 3, or issuing a token through a /token API, seen in Steps 4 and 5.
 
+## Security Vulnerabilities
+
+Mentioned previously as a disadvantage, the Client Application side of the OAuth communication is often left vulnerable due to the high likelihood of improper implementation of the protocol by developers themselves.
+
+### CSRF Tokens
+
+One example of this is the `state` parameter, which contains a unique and hard-to-guess value that will be sent back and forth between the Client Application and the OAuth Service Provider. This is called a **CSRF** token, and is used to prevent **C**ross-**S**ite **R**equest **F**orgery attacks. These attacks occur in cases when the server is unable to distinguish between requests sent from the victim or the attacker.
+
+If the OAuth protocol is not implemented with this `state` paramater, attackers could potentially initiate an OAuth communication flow between themselves and the Client Application, and then trick the victim's browser into completing it, as the Client Application has no way to verify that the requests for authorisation codes or an access token is coming from the victim themselves, or an attacker.
+
+### The "Implicit" Grant Type
+
+The "Implicit" grant type is even simpler than the "Authorisation Code" grant type, as it does not involve the authorisation code being exchanged for the access token. Instead, when the user give his or her consent, the access token is given straight away. This makes it far less secure, as the access tokens are sent through the browser rather than through a secure back-channel.
+
+If the user gives his or her consent, the authorisation server simply redirects the browser and adds the `token` and `state` information to the redirected URL. In order to store this information for later use, the client application sends this data to the server to store in what is called a `POST` request. The server has no way to verify the integrity of this data, and instead trusts it completely, meaning that the attacker is able to simply alter any of the paramaters in this `POST` request.
+
+### Other Vulnerabilities and Prevention Methods
+
+There are other vulnerabilities with OAuth 2.0 that mainly involve stealing authorisation codes and access tokens, either through a flaw in validating the `redirect_uri` paramater, or even stealing the codes through an open redirect proxy page. While these vulnerabilities are relatively simple to exploit, the prevention methods are also relatively simple to implement.
+
+For example, the vulnerability with CSRF tokens can be prevented by ensuring that the `state` paramater is implemented and no left out of the OAuth 2.0 infrastructure in your business. Keeping a whitelist of verified URI's that can be used in the `redirect_uri` paramater will also help prevent malicious attacks.
+
 Tags:
